@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Account Dashboard with hints of glassmorphism">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a10bb03e8b.js" crossorigin="anonymous"></script>
+    <title>Account Dashboard</title>
+</head>
+<body>
+    <section>
+        <header>
+            <span class="hecked">Hacked? Lol</span>
+            <div class="lists">
+                <ul class='list'>
+                    <li class="list2"><a href="#">Home</a></li>
+                    <li class="list2"><a href="#">Blogs</a></li>
+                    <li class="list2"><a href="#">Quizzes</a></li>
+                    <li class="list2"><a href="#">Account</a></li>
+                    <li class="list2"><a href="#">Newsletter</a></li>
+                    <li class="list2"><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <div class="hamburg">
+                <p>Menu <i class="fa-solid fa-bars"></i></p>
+            </div>
+        </header>
+    </section>
+    <div class="container">
+        <ul class="dashboard">
+            <li class="dashnav"><a href="#"><i class="fa-solid fa-user"></i> Edit Profile</a></li>
+            <li class="dashnav" id="bigger"><a href="#"><i class="fa-solid fa-gauge"></i> Quiz Dashboard</a></li>
+            <li class="dashnav"><a href="#"><i class="fa-solid fa-book"></i> Read More</a></li>
+        </ul>
+        <button class="logout">Logout</button>
+        <div class="line"></div>
+        <div class="form">
+            <div class="current">
+                <label class ="cname">Current Name: Rick Ashtley</label>
+                <label class ="cemail">Current Email: never gonna give u up</label>
+                <label class ="cusrname">Current Username: let u down</label>
+                <label class ="cpassword">Current Password: <span class="rick">rickrolled</span></label>
+                <button class="submit">Save Changes</button>
+            </div>
+            <form class="edit">
+                <input type="text" placeholder="Change Name" class="name">
+                <input type="text" placeholder="Change Email" class="email">
+                <input type="text" placeholder="Confirm Email" class="email">
+                <input type="text" placeholder="Change Username" class="username">
+                <input type="password" placeholder="Change Password" class="password">
+                <input type="password" placeholder="Confirm Password" class="confrimPassword">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
